@@ -1,0 +1,58 @@
+$date
+	Sat Nov  7 07:26:04 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module instruction_memory_tb $end
+$var wire 16 ! instruction [15:0] $end
+$var parameter 32 " ADDR_WIDTH $end
+$var parameter 32 # DATA_WIDTH $end
+$var reg 8 $ pc [7:0] $end
+$scope module dut $end
+$var wire 16 % instruction [15:0] $end
+$var wire 8 & pc [7:0] $end
+$var parameter 32 ' ADDR_WIDTH $end
+$var parameter 32 ( DATA_WIDTH $end
+$var parameter 88 ) MEM_FILE $end
+$scope begin $unm_blk_1 $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111000001110010011011110110011101110010011000010110110100101110011011010110010101101101 )
+b10000 (
+b1000 '
+b10000 #
+b1000 "
+$end
+#0
+$dumpvars
+b100000000 *
+b0 &
+b0 %
+b0 $
+b0 !
+$end
+#10000
+b1 $
+b1 &
+#20000
+b10 $
+b10 &
+#30000
+b11 $
+b11 &
+#40000
+b100 $
+b100 &
+#50000
+b11111111 $
+b11111111 &
+#60000
